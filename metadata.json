@@ -1,0 +1,18 @@
+{
+    "id": "lee_and_hasegawa2011",
+    "title": null,
+    "description": null,
+    "license": null,
+    "url": "http://dx.doi.org/10.1098/rspb.2011.0518",
+    "citation": "Lee S, Hasegawa T (2011) Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages. Proceedings of the Royal Society B: Biological Sciences, 278(1725):3662\u20139.",
+    "name": "Japonic (Lee & Hasegawa 2011)",
+    "author": "Lee & Hasegawa",
+    "year": 2011,
+    "scaling": "years",
+    "analysis": "bayesian",
+    "family": "japo1237",
+    "cldf": "https://github.com/lexibank/leejaponic",
+    "missing": {
+        "characters": "not readily available"
+    }
+}
