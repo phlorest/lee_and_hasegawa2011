@@ -15,7 +15,7 @@
         "analysis": "bayesian",
         "scaling": "years"
     },
-    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2011 'Japonic (Lee & Hasegawa 2011)'",
+    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa2011'Japonic (Lee & Hasegawa 2011)'",
     "dcat:accessURL": "https://github.com/phlorest/lee_and_hasegawa2011",
     "prov:wasDerivedFrom": [
         {
@@ -27,7 +27,7 @@
         {
             "rdf:about": "https://github.com/phlorest/lee_and_hasegawa2011",
             "rdf:type": "prov:Entity",
-            "dc:created": "7de572a",
+            "dc:created": "ed9054e",
             "dc:title": "Repository"
         },
         {

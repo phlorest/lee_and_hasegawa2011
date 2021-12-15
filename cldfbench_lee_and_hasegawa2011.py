@@ -9,21 +9,25 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        with self.nexus_summary() as nex:
-            self.add_tree_from_nexus(
-                args,
-                self.raw_dir / 'phylogeny_japonic.tre',
-                nex,
-                'summary',
-                detranslate=True,
-            )
+        args.writer.add_summary(
+            self.raw_dir.read_tree(
+                'phylogeny_japonic.tre', detranslate=True),
+            self.metadata,
+            args.log)
+        
         posterior = self.sample(
-            self.read_gzipped_text(self.raw_dir / 'Japonic_COV_UCLD.trees.gz'),
+            self.remove_burnin(
+                self.raw_dir.read('Japonic_COV_UCLD.trees.gz'),
+                2000),
             detranslate=True,
             as_nexus=True)
 
-        with self.nexus_posterior() as nex:
-            for i, tree in enumerate(posterior.trees.trees, start=1):
-                self.add_tree(args, tree, nex, 'posterior-{}'.format(i))
+        args.writer.add_posterior(
+            posterior.trees.trees, 
+            self.metadata, 
+            args.log)
 
-        self.add_data(args, self.raw_dir / 'Japonic.nex')
+        args.writer.add_data(
+            self.raw_dir.read_nexus('Japonic.nex'),
+            self.characters, 
+            args.log)
