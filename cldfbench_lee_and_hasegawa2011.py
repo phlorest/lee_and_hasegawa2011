@@ -20,6 +20,9 @@ class Dataset(phlorest.Dataset):
         args.writer.add_posterior(posterior, self.metadata, args.log)
 
         args.writer.add_data(
-            self.raw_dir.read_nexus('Japonic.nex'),
+            self.raw_dir.read_nexus(
+                'Japonic.nex',
+                preprocessor=lambda s: s.replace('datatype=binary', 'datatype=standard'),
+            ),
             self.characters, 
             args.log)
