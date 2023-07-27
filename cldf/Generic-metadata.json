@@ -15,7 +15,7 @@
         "analysis": "bayesian",
         "scaling": "years"
     },
-    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2011 'Japonic (Lee & Hasegawa 2011)'",
+    "dc:title": "Phlorest phylogeny derived from Lee & Hasegawa 2011 'Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages'",
     "dcat:accessURL": "https://github.com/phlorest/lee_and_hasegawa2011",
     "prov:wasDerivedFrom": [
         {
@@ -33,7 +33,7 @@
         {
             "rdf:about": "https://github.com/phlorest/lee_and_hasegawa2011",
             "rdf:type": "prov:Entity",
-            "dc:created": "3e7c0ad",
+            "dc:created": "2db9d80",
             "dc:title": "Repository"
         },
         {
