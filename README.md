@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Lee & Hasegawa 2011 'Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages'
 
 [![CLDF validation](https://github.com/phlorest/lee_and_hasegawa2011/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/lee_and_hasegawa2011/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8250174.svg)](https://doi.org/10.5281/zenodo.8250174)
 
 ## How to cite
 
