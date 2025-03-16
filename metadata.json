@@ -12,6 +12,7 @@
     "family": "Japonic",
     "cldf": "https://doi.org/10.5281/zenodo.5126800",
     "missing": {
-        "characters": "not readily available"
+        "characters": "not readily available",
+        "artefacts": "not available"
     }
 }
