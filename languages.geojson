@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6873,
+          40.7435
+        ]
+      },
+      "properties": {
+        "Name": "AOMORI",
+        "Glottocode": "tsug1237",
+        "Glottolog_Name": "Tsugaru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791389,
+          33.109444
+        ]
+      },
+      "properties": {
+        "Name": "HACHIJO",
+        "Glottocode": "hach1239",
+        "Glottolog_Name": "Hachijo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.78,
+          24.059
+        ]
+      },
+      "properties": {
+        "Name": "HATERUMA",
+        "Glottocode": "hate1238",
+        "Glottolog_Name": "Hateruma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.45346,
+          28.20991
+        ]
+      },
+      "properties": {
+        "Name": "KAGOSHIMA",
+        "Glottocode": "nort2935",
+        "Glottolog_Name": "Northern Amami-Oshima"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8,
+          34.68333
+        ]
+      },
+      "properties": {
+        "Name": "OLD_JAPANESE",
+        "Glottocode": "oldj1239",
+        "Glottolog_Name": "Old Japanese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6998,
+          24.6584
+        ]
+      },
+      "properties": {
+        "Name": "TARAMA",
+        "Glottocode": "tara1319",
+        "Glottolog_Name": "Tarama-Minna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.99075,
+          24.44997
+        ]
+      },
+      "properties": {
+        "Name": "YONAGUNI",
+        "Glottocode": "yona1241",
+        "Glottolog_Name": "Yonaguni"
+      }
+    }
+  ]
+}
