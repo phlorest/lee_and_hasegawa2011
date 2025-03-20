@@ -1,16 +1,16 @@
 ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,xd_ids,Glottolog_Name
 AICHI,AICHI,,,,gifu1238,,,Gifu-Aichi
 AKITA,AKITA,,,,akit1240,,,Akita
-AOMORI,AOMORI,,,,,,,
+AOMORI,AOMORI,,40.7435,140.6873,tsug1237,,,Tsugaru
 CHIBA,CHIBA,,,,chib1248,,,Chiba
 EHIME,EHIME,,,,,,,
 FUKUI,FUKUI,,,,fuku1241,,,Fukui
-FUKUOKA,FUKUOKA,,,,,,,
+FUKUOKA,FUKUOKA,,,,yana1269,,,Yanagawa-ben
 FUKUSHIMA,FUKUSHIMA,,,,fuku1243,,,Fukushima
 GIFU,GIFU,,,,gifu1238,,,Gifu-Aichi
 GUNMA,GUNMA,,,,gunm1237,,,Gunma
 HIROSHIMA,HIROSHIMA,,,,hiro1237,,,Hiroshima
-HOKKAIDO,HOKKAIDO,,,,,,,
+HOKKAIDO,HOKKAIDO,,,,hokk1249,,,Hokkaidō
 HYOGO,HYOGO,,,,,,,
 HACHIJO,HACHIJO,,33.109444,139.791389,hach1239,,,Hachijo
 HATERUMA,HATERUMA,,24.059,123.78,hate1238,,,Hateruma
@@ -20,11 +20,11 @@ IKEMA,IKEMA,,,,,,,
 IRAFU,IRAFU,,,,,,,
 ISHIGAKI,ISHIGAKI,,,,ishi1240,,xd640,Ishigaki
 ISHIKAWA,ISHIKAWA,,,,,,,
-IWATE,IWATE,,,,,,,
+IWATE,IWATE,,,,sout2953,,,Southern Tōhoku
 KAGAWA,KAGAWA,,,,kaga1258,,,Kagawa-ben
 KAGOSHIMA,KAGOSHIMA,,28.20991,129.45346,nort2935,,,Northern Amami-Oshima
 KANAGAWA,KANAGAWA,,,,kana1290,,,Kanagawa
-KOCHI,KOCHI,,,,,,,
+KOCHI,KOCHI,,,,west2607,,,Western Japanese
 KUMAMOTO,KUMAMOTO,,,,kuma1281,,,Kumamoto-ben
 KYOTO,KYOTO,,,,kyot1238,,,Kyoto
 MIDDLE_JAPANESE,MIDDLE_JAPANESE,,,,,,,
@@ -44,7 +44,7 @@ OSAKA,OSAKA,,,,osak1237,,,Ōsaka
 SAGA,SAGA,,,,saga1265,,,Saga-ben
 SAITAMA,SAITAMA,,,,,,,
 SHIGA,SHIGA,,,,shig1237,,,Shiga
-SHIMANE,SHIMANE,,,,,,,
+SHIMANE,SHIMANE,,,,izum1237,,,Izumo-ben
 SHIZUOKA,SHIZUOKA,,,,shiz1237,,,Shizuoka
 TAKETOMI,TAKETOMI,,,,take1256,,,Taketomi
 TARAMA,TARAMA,,24.6584,124.6998,tara1319,,,Tarama-Minna
